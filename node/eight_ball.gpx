@@ -1,0 +1,105 @@
+<gpx version="1.0" creator="Velocitek - http://www.velocitek.com" d1p1:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd" xmlns:d1p1="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0">
+  <name>eight_ball</name>
+  <time>2010-02-03T04:17:56.2924792Z</time>
+  <bounds minlat="37.8055114746094" minlon="-122.467132568359" maxlat="37.9307403564453" maxlon="-122.353820800781" />
+  <trk>
+    <name>eight_ball</name>
+    <trkseg>
+    <!-- starting at line 500 of the original -->
+      <trkpt lat="37.811279296875" lon="-122.442924499512">
+        <time>2010-01-30T18:04:52Z</time>
+      </trkpt>
+      <trkpt lat="37.8112716674805" lon="-122.442924499512">
+        <time>2010-01-30T18:04:54Z</time>
+      </trkpt>
+      <trkpt lat="37.8112640380859" lon="-122.442924499512">
+        <time>2010-01-30T18:04:56Z</time>
+      </trkpt>
+      <trkpt lat="37.8112602233887" lon="-122.442916870117">
+        <time>2010-01-30T18:04:58Z</time>
+      </trkpt>
+      <trkpt lat="37.8112564086914" lon="-122.442916870117">
+        <time>2010-01-30T18:05:00Z</time>
+      </trkpt>
+      <trkpt lat="37.8112525939941" lon="-122.442909240723">
+        <time>2010-01-30T18:05:02Z</time>
+      </trkpt>
+      <trkpt lat="37.8112487792969" lon="-122.442909240723">
+        <time>2010-01-30T18:05:04Z</time>
+      </trkpt>
+      <trkpt lat="37.8112449645996" lon="-122.442901611328">
+        <time>2010-01-30T18:05:06Z</time>
+      </trkpt>
+      <trkpt lat="37.8112411499023" lon="-122.442901611328">
+        <time>2010-01-30T18:05:08Z</time>
+      </trkpt>
+      <trkpt lat="37.8112335205078" lon="-122.442909240723">
+        <time>2010-01-30T18:05:10Z</time>
+      </trkpt>
+      <trkpt lat="37.8112258911133" lon="-122.442901611328">
+        <time>2010-01-30T18:05:12Z</time>
+      </trkpt>
+      <trkpt lat="37.811222076416" lon="-122.442901611328">
+        <time>2010-01-30T18:05:14Z</time>
+      </trkpt>
+      <trkpt lat="37.8112144470215" lon="-122.442901611328">
+        <time>2010-01-30T18:05:16Z</time>
+      </trkpt>
+      <trkpt lat="37.8112144470215" lon="-122.442901611328">
+        <time>2010-01-30T18:05:18Z</time>
+      </trkpt>
+      <trkpt lat="37.8112106323242" lon="-122.442893981934">
+        <time>2010-01-30T18:05:20Z</time>
+      </trkpt>
+      <trkpt lat="37.8112030029297" lon="-122.442893981934">
+        <time>2010-01-30T18:05:22Z</time>
+      </trkpt>
+      <trkpt lat="37.8111991882324" lon="-122.442901611328">
+        <time>2010-01-30T18:05:24Z</time>
+      </trkpt>
+      <trkpt lat="37.8111915588379" lon="-122.442901611328">
+        <time>2010-01-30T18:05:26Z</time>
+      </trkpt>
+      <trkpt lat="37.8111877441406" lon="-122.442909240723">
+        <time>2010-01-30T18:05:28Z</time>
+      </trkpt>
+      <trkpt lat="37.8111915588379" lon="-122.442909240723">
+        <time>2010-01-30T18:05:30Z</time>
+      </trkpt>
+      <trkpt lat="37.8111915588379" lon="-122.442924499512">
+        <time>2010-01-30T18:05:32Z</time>
+      </trkpt>
+      <trkpt lat="37.8111877441406" lon="-122.442932128906">
+        <time>2010-01-30T18:05:34Z</time>
+      </trkpt>
+      <trkpt lat="37.8111839294434" lon="-122.442932128906">
+        <time>2010-01-30T18:05:36Z</time>
+      </trkpt>
+      <trkpt lat="37.8111839294434" lon="-122.442939758301">
+        <time>2010-01-30T18:05:38Z</time>
+      </trkpt>
+      <trkpt lat="37.8111801147461" lon="-122.442939758301">
+        <time>2010-01-30T18:05:40Z</time>
+      </trkpt>
+      <trkpt lat="37.8111801147461" lon="-122.442947387695">
+        <time>2010-01-30T18:05:42Z</time>
+      </trkpt>
+      <trkpt lat="37.8111763000488" lon="-122.44295501709">
+        <time>2010-01-30T18:05:44Z</time>
+      </trkpt>
+      <trkpt lat="37.8111763000488" lon="-122.442962646484">
+        <time>2010-01-30T18:05:46Z</time>
+      </trkpt>
+      <trkpt lat="37.8111763000488" lon="-122.44295501709">
+        <time>2010-01-30T18:05:48Z</time>
+      </trkpt>
+      <trkpt lat="37.8111686706543" lon="-122.442962646484">
+        <time>2010-01-30T18:05:50Z</time>
+      </trkpt>
+      <trkpt lat="37.811164855957" lon="-122.442970275879">
+        <time>2010-01-30T18:05:52Z</time>
+      </trkpt>
+
+          </trkseg>
+          </trk>
+          </gpx>
