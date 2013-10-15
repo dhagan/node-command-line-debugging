@@ -49,3 +49,18 @@ Then browse to
 http://127.0.0.1:8080/debug?port=5858
 
 
+result.root.child[0].$.foo
+"bar"
+
+result.root.child[0].grandchild[0].$.baz
+"fizbuzz"
+
+result.root.child[0].grandchild[0]._
+"grandchild content"
+
+result.root.sibling
+["with content!"]
+
+result.root.sibling[0]
+"with content!"
+
