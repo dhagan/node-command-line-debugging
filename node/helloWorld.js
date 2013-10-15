@@ -23,10 +23,31 @@ db.open(function(err, client) {
 
 var parser = new xml2js.Parser();
 
-function getCollection() = function(callback) {
-    this.db.collection('employees', function(error, employee_collection) {
+var getCollection = function(callback) {
+    db.collection('employees', function(error, employee_collection) {
         if( error ) callback(error);
         else callback(null, employee_collection);
+    });
+};
+
+//save new employee
+//EmployeeProvider.prototype.
+var save = function(employees, callback) {
+    getCollection(function(error, employee_collection) {
+        if( error ) callback(error)
+        else {
+            if( typeof(employees.length)=="undefined")
+                employees = [employees];
+
+            for( var i =0;i< employees.length;i++ ) {
+                employee = employees[i];
+                employee.created_at = new Date();
+            }
+
+            employee_collection.insert(employees, function() {
+                callback(null, employees);
+            });
+        }
     });
 };
 
@@ -43,7 +64,7 @@ parser.on('end', function (result) {
     var trkpts = result['gpx']['trk'][0]['trkseg'][0]['trkpt'];
     for ( var i = 0; i < trkpts.length; i++ ) {
         var trkpt = trkpts[i];
-        //console.log(trkpt['$']['lat'],trkpt['$']['lon'], trkpt['time'][0] );
+        console.log(trkpt['$']['lat'],trkpt['$']['lon'], trkpt['time'][0] );
         var trackpoint = {
             lat: trkpt['$']['lat'],
             lon: trkpt['$']['lon'],
@@ -53,6 +74,8 @@ parser.on('end', function (result) {
             speed: Math.random(),
             heading: (Math.random() * 360)%360
         }
+        console.log(trkpt['$']['lat'],trkpt['$']['lon'], trkpt['time'][0] );
+        save(trackpoint);
     }
 });
 
